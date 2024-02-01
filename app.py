@@ -5,7 +5,7 @@ import fastapi
 from internal import routes
 
 app = fastapi.FastAPI()
-app.include_router(routes.api_router)
+app.include_router(routes.router)
 
 
 if __name__ == "__main__":
